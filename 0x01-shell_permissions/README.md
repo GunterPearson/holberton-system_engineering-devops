@@ -1,0 +1,1 @@
+ALL shell permissions
