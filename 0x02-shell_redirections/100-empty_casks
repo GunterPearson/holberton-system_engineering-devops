@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -type d -name ".*" -empty -printf "%f\n"
+find . -name ".*" -empty -printf "%f\n"
