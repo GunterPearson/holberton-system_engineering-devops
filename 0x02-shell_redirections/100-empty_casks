@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type f -o -type -d -empty "foo*" | printf "%f\n"
+find -empty -type f -o -type -d "foo*" | printf "%f\n"
