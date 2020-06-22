@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# prints all in home dir
+while read -r line; do
+    echo "$line" | cut -f 1,3,6 -d ':'
+done < /etc/passwd
