@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# while loop 10 times
+while ((i < 10)); do echo "Holberton School" && i=$((i+1)); done
