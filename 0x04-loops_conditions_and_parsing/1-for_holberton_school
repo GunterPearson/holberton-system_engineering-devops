@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Loops 10 times, printing a string
+for ((i = 0; i < 10; i++)); do echo "Holberton School"; done
