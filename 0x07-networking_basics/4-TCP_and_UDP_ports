@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# to see what status of udp and tcp ports are
 netstat --listen
