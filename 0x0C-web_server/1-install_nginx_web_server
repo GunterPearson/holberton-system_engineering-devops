@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Installs Nginx 
+
+apt-get update
+apt-get install -y nginx
+sudo ufw allow 'Nginx HTTP'
+
+mkdir /etc/nginx/html
+touch /etc/nginx/html/index.html
+echo "Holberton School" > /etc/nginx/html/index.html
+sudo service nginx restart
