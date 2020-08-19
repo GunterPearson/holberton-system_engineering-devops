@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # world wide web
 
 domain_information () {
