@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """ gather user todo from api"""
+import json
 import requests
 from sys import argv
-import json
 
 
 if __name__ == "__main__":
