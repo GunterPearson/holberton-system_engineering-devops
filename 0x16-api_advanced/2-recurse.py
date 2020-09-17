@@ -16,6 +16,8 @@ def recurse(subreddit, hot_list=[], after=""):
     }
     data = requests.get(url, headers=headers, params=params,
                         allow_redirects=False).json()
+    if data == {'message': 'Not Found', 'error': 404}:
+        return None
     info = data.get('data', {}).get('children', [])
     after = data.get('data', {}).get('after', None)
     for dic in info:
